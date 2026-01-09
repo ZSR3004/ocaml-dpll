@@ -28,6 +28,9 @@ make sure you actually have [OCaml and Opam Insatlled](https://ocaml.org/install
 For reference, Dune builds and runs projects (kind of like how Rust has `cargo build` and `cargo test`) and
 `Opam` is kind of like a package manager for OCaml (like `pip` for Python), but with a few more features.
 
+Just so you know, the code itself is in `dpll.ml`. The files `dune` and `dune-project` just tell Dune
+how to build the project, so I wouldn't touch those.
+
 To start, clone this repository and `cd` into it. Now, we'll create a switch (which is kind of like a 
 virtual environment)
 ```bash
