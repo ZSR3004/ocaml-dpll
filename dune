@@ -1,0 +1,11 @@
+(library
+ (name ps5)
+ (modules dpll)
+ (inline_tests)
+ (preprocess
+  (pps ppx_inline_test ppx_deriving.show)))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A))))
